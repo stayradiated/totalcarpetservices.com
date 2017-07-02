@@ -1,0 +1,19 @@
+{
+  "name": "totalcarpetservices.com",
+  "version": "1.0.0",
+  "description": "website for totalcarpetservices.com",
+  "main": "dist/index.html",
+  "repository": "git@github.com:stayradiated/totalcarpetservices.com",
+  "author": "George Czabania <george@czabania.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "react-scripts": "^1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}

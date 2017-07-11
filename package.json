@@ -1,19 +1,31 @@
 {
-  "name": "totalcarpetservices.com",
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
   "version": "1.0.0",
-  "description": "website for totalcarpetservices.com",
-  "main": "dist/index.html",
-  "repository": "git@github.com:stayradiated/totalcarpetservices.com",
-  "author": "George Czabania <george@czabania.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "react-scripts": "^1.0.10"
-  },
-  "scripts": {
-    "start": "react-scripts start"
-  },
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "gatsby": "^1.0.1",
+    "gatsby-link": "^1.0.1",
+    "gatsby-plugin-react-helmet": "^1.0.1",
+    "react-typography": "^0.15.0",
+    "styled-components": "^2.1.1",
+    "typography": "^0.15.8",
+    "typography-breakpoint-constants": "^0.14.0",
+    "typography-plugin-code": "^0.15.9"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"pages/*.js\" \"utils/*.js\" \"wrappers/*.js\" \"html.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

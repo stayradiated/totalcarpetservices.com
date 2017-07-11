@@ -1,31 +1,10 @@
-# totalcarpetservices.com
+# gatsby-starter-default
+The default Gatsby starter
 
-> website for totalcarpetservices.com
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+```
+gatsby new gatsby-example-site
+```
+## Deploy
 
-TCS: Total Carpet Services Rotorua
-
-Total Carpet Services is Rotorua based.
-
-Operating since 1998.
-
-Fully trained operators specialising in carpet steam cleaning and restoration.
-
-Upholstory cleaning.
-
-Specialist stain removal.
-
-Flood restoration.
-
-Residential and commerical premises.
-
-Call Ziggy or Sue to discuss your requirements:
-
-0274 924 530
-
-PO Box 6245
-Rotorua 3043
-total.carpet@clear.net.nz
-
-===
-
-Fonts: Baloo
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)

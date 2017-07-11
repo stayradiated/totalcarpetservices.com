@@ -32,6 +32,10 @@ const LogoLink = styled(Link)`
   textDecoration: none;
 `
 
+const LargeText = styled.p`
+  font-size: 5em;
+`
+
 
 const Index = () => (
   <div>
@@ -45,27 +49,27 @@ const Index = () => (
       </HeaderContent>
     </Header>
     <PageContent>
-      <p>Total Carpet Services is Rotorua based.</p>
+      <StyledText>Total Carpet Services is Rotorua based.</StyledText>
 
-      <p>Operating since 1998.</p>
+      <StyledText>Operating since 1998.</StyledText>
 
-      <p>Fully trained operators specialising in carpet steam cleaning and restoration.</p>
+      <StyledText>Fully trained operators specialising in carpet steam cleaning and restoration.</StyledText>
 
-      <p>Upholstory cleaning.</p>
+      <StyledText>Upholstory cleaning.</StyledText>
 
-      <p>Specialist stain removal.</p>
+      <StyledText>Specialist stain removal.</StyledText>
 
-      <p>Flood restoration.</p>
+      <StyledText>Flood restoration.</StyledText>
 
-      <p>Residential and commerical premises.</p>
+      <StyledText>Residential and commerical premises.</StyledText>
 
-      <p>Call Ziggy or Sue to discuss your requirements:</p>
+      <StyledText>Call Ziggy or Sue to discuss your requirements:</StyledText>
 
       <h2>0274 924 530</h2>
 
-      <p>PO Box 6245</p>
-      <p>Rotorua 3043</p>
-      <p>total.carpet@clear.net.nz</p>
+      <StyledText>PO Box 6245</StyledText>
+      <StyledText>Rotorua 3043</StyledText>
+      <StyledText>total.carpet@clear.net.nz</StyledText>
     </PageContent>
   </div>
 )

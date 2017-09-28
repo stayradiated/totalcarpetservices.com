@@ -1,6 +1,10 @@
 module.exports = {
+  pathPrefix: '/totalcarpetservices.com',
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: 'Total Carpet Services Rotorua',
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
+  ],
 }

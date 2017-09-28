@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import { rhythm } from '../utils/typography'
 
 const Header = styled.div`
-  background: orange;
+  background: #FE790E;
   margin-bottom: ${rhythm(1)};
 `
 
@@ -28,14 +28,22 @@ const Logo = styled.h1`
 `
 
 const LogoLink = styled(Link)`
-  color: white;
-  textDecoration: none;
+  color: black;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `
 
-const LargeText = styled.p`
-  font-size: 5em;
+const Text = styled.p`
 `
 
+const UnorderedList = styled.ul`
+`
+
+const ListItem = styled.li`
+`
 
 const Index = () => (
   <div>
@@ -43,33 +51,31 @@ const Index = () => (
       <HeaderContent>
         <Logo>
           <LogoLink to='/'>
-            TCS: Total Carpet Services Rotorua
+            Total Carpet Services Rotorua
           </LogoLink>
         </Logo>
       </HeaderContent>
     </Header>
     <PageContent>
-      <StyledText>Total Carpet Services is Rotorua based.</StyledText>
+      <UnorderedList>
+        <ListItem>Total Carpet Services is Rotorua based.</ListItem>
+        <ListItem>We have been operating since 1998.</ListItem>
+        <ListItem>Fully trained operators specialising in carpet steam cleaning and restoration.</ListItem>
+        <ListItem>Upholstory cleaning.</ListItem>
+        <ListItem>Specialist stain removal.</ListItem>
+        <ListItem>Flood restoration.</ListItem>
+        <ListItem>Residential and commerical premises.</ListItem>
+      </UnorderedList>
 
-      <StyledText>Operating since 1998.</StyledText>
-
-      <StyledText>Fully trained operators specialising in carpet steam cleaning and restoration.</StyledText>
-
-      <StyledText>Upholstory cleaning.</StyledText>
-
-      <StyledText>Specialist stain removal.</StyledText>
-
-      <StyledText>Flood restoration.</StyledText>
-
-      <StyledText>Residential and commerical premises.</StyledText>
-
-      <StyledText>Call Ziggy or Sue to discuss your requirements:</StyledText>
+      <Text>Call Ziggy or Sue to discuss your requirements:</Text>
 
       <h2>0274 924 530</h2>
 
-      <StyledText>PO Box 6245</StyledText>
-      <StyledText>Rotorua 3043</StyledText>
-      <StyledText>total.carpet@clear.net.nz</StyledText>
+      <UnorderedList>
+        <ListItem>PO Box 6245</ListItem>
+        <ListItem>Rotorua 3043</ListItem>
+        <ListItem>total.carpet@clear.net.nz</ListItem>
+      </UnorderedList>
     </PageContent>
   </div>
 )
